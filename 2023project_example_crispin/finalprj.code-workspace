@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../WK12_Flexboxes_Transitions"
+		},
+		{
+			"path": "../CODE"
+		},
+		{
+			"path": "../PROJECT"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PROJECT"
+	}
+}

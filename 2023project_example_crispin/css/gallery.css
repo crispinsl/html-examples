@@ -1,0 +1,44 @@
+body {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.art_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 50px;
+}
+
+@media (max-width: 750px) {
+    .art_grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+    .art_grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .art_grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.thumbnail {
+    width: 80%;
+    border-radius: 15px;
+}
+
+
+.thumbnail_row {
+    margin: 10px;
+}
+
+.container {
+    grid-template-rows: 1fr 50px;
+}

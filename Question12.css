@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(247, 241, 241);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.time {
+    color: darkred;
+}
+
+.head1 {
+    color: olive;
+    font-family: Marko One;
+    text-align: center;
+}
+
+.sub1 {
+    text-align: center;
+    color: gray;
+    font-style: italic;
+}
+
+.head2 {
+    text-align:center;
+}
+
+.head3 {
+    text-align:center;
+    font-style: italic;
+    color: rgb(78, 129, 100)
+}
+
+.sub2 {
+    color:gray;
+    text-align: center;
+}

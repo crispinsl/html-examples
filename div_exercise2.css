@@ -1,0 +1,21 @@
+body {
+    background-color:rgb(161, 236, 211);
+}
+
+#main-header {
+    font-family: Roboto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 80px;
+    color: black;
+}
+
+.subheader {
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+}
+
+.links {
+    display: inline-block;
+}

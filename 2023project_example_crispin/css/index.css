@@ -1,0 +1,32 @@
+.content_area {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+main {
+    margin: 5px;
+}
+
+aside {
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(201, 207, 212);
+    border-radius: 25px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 50px;
+}
+
+.image {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    border-radius: 50px;
+    margin: 20px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Forms</title>
+    </head>
+    <body>
+        <form action="#" method="get">
+            <!--method variables are "get" and "post"-->
+            <div>
+                <label for="form_name">name</label>
+                <input name="name" id="form_name">
+            </div>
+            <br>
+            <div>
+                <label for="form_password">password</label>
+                <input name="password" id="form_password" type="password" placeholder="Enter your student ID here" required>
+            </div>
+            <br>
+            <div>
+                <label for="form_number">Number: </label>
+                <input name="number" type="number" id="form_number" min="1" max="10">
+            </div>
+            <br>
+            <div>
+                <label for="form_email">Email: </label>
+                <input name="email" type="email" id="form_email">
+            </div>
+            <br>
+            <div>
+                <label for="form_date">Date: </label>
+                <input name="date" type="date" id="form_date">
+            </div>
+            <br>
+            <div>
+                <label for="form_time">Time: </label>
+                <input name="time" type="time" id="form_time">
+            </div>
+            <br>
+            <div>
+                <label for="form_datetime">Date Time: </label>
+                <input name="datetime" type="datetime-local" id="form_datetime">
+            </div>
+            <br>
+            <div>
+                <label for="form_phone">Phone: </label>
+                <input name="phone" type="phone" id="form_phone">
+            </div>
+            <br>
+            <div>
+                <label for="form_url">URL: </label>
+                <input name="url" type="url" id="form_url">
+            </div>
+            <div>
+            <br>
+            <div>
+                Checkbox
+                <div>
+                    <label for="form_check1">Option 1</label>
+                    <input type="checkbox" id="form_check1" name="check1">
+                </div>
+                <div>
+                    <label for="form_check2">Option 2</label>
+                    <input type="checkbox" id="form_check2" name="check2">
+                </div>
+            </div>
+            <br>
+            <div>
+                <label for="form_dropdown">Dropdown</label>
+                <select type="select" name="dropdown" id="form_dropdown">
+                    <option value="Option 1">Value 1</option>
+                    <option value="Option 2">Value 2</option>
+                    <option value="Option 3">Value 3</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="form_radio">Radio</label>
+                <div>
+                    <input type="radio" id="form_radio" name="radio" value="Option 1">
+                    <label>Option 1</label>
+                </div>
+                <div>
+                    <input type="radio" id="form_radio" name="radio" value="Option 2">
+                    <label>Option 2</label>
+                </div>
+                <div>
+                    <input type="radio" id="form_radio" name="radio" value="Option 3">
+                    <label>Option 3</label>
+                </div>
+            </div>
+            <br>
+            <div>
+                <label for="form_textarea">Text Area: </label>
+                <textarea id="form_textarea" name="textarea"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="form_file">Upload: </label>
+                <input type="file" id="form_file" name="file">
+            </div>
+            <br>
+            <div>
+                <label for="form_color">Choose a color</label>
+                <input type="color" id="form_color" name="color">
+            </div>
+            <br>
+            <div>
+                <label for="form_range">Range: </label>
+                <label>Highly Unlikely</label>
+                <input type="range" id="form_range" name="range">
+                <label>Highly Likely</label>
+            </div>
+            <br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </form>
+    </body>
+</html>
